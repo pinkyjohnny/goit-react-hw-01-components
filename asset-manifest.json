@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pinkyjohnny/goit-react-hw-01-components/static/css/main.277fbeea.css",
-    "main.js": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.4c9cebca.js",
+    "main.css": "/pinkyjohnny/goit-react-hw-01-components/static/css/main.b3c08cc3.css",
+    "main.js": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.ab1ab997.js",
     "index.html": "/pinkyjohnny/goit-react-hw-01-components/index.html",
-    "main.277fbeea.css.map": "/pinkyjohnny/goit-react-hw-01-components/static/css/main.277fbeea.css.map",
-    "main.4c9cebca.js.map": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.4c9cebca.js.map"
+    "main.b3c08cc3.css.map": "/pinkyjohnny/goit-react-hw-01-components/static/css/main.b3c08cc3.css.map",
+    "main.ab1ab997.js.map": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.ab1ab997.js.map"
   },
   "entrypoints": [
-    "static/css/main.277fbeea.css",
-    "static/js/main.4c9cebca.js"
+    "static/css/main.b3c08cc3.css",
+    "static/js/main.ab1ab997.js"
   ]
 }
