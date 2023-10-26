@@ -1,31 +1,30 @@
-import css from './Profile.module.css'
+import { ProfileCard, ProfileDescription, ProfileAvatar, ProfileName, ProfileTag, ProfileLocation, ProfileStats, ProfileStatsItem, ProfileStatsLabel, ProfileStatsQuantity } from './Profile.styled'
 
 export const Profile = ({ user }) => {
-    return <div className={css.profile}>
-  <div className={css.description}>
-    <img
+    return <ProfileCard>
+  <ProfileDescription>
+    <ProfileAvatar
       src={user.avatar}
       alt="User avatar"
-      className={css.avatar}
     />
-    <p className={css.name}>{user.username}</p>
-    <p className={css.tag}>@{user.tag}</p>
-    <p className={css.location}>{user.location}</p>
-  </div>
+    <ProfileName>{user.username}</ProfileName>
+    <ProfileTag>@{user.tag}</ProfileTag>
+    <ProfileLocation>{user.location}</ProfileLocation>
+  </ProfileDescription>
 
-  <ul className={css.stats}>
-    <li className={css.statsitem}>
-      <span className={css.label}>Followers</span>
-      <span className={css.quantity}>{user.stats.followers}</span>
-    </li>
-    <li className={css.statsitem}>
-      <span className={css.label}>Views</span>
-      <span className={css.quantity}>{user.stats.views}</span>
-    </li>
-    <li className={css.statsitem}>
-      <span className={css.label}>Likes</span>
-      <span className={css.quantity}>{user.stats.likes}</span>
-    </li>
-  </ul>
-</div>
+  <ProfileStats>
+    <ProfileStatsItem>
+      <ProfileStatsLabel>Followers</ProfileStatsLabel>
+      <ProfileStatsQuantity>{user.stats.followers}</ProfileStatsQuantity>
+    </ProfileStatsItem>
+    <ProfileStatsItem>
+      <ProfileStatsLabel>Views</ProfileStatsLabel>
+      <ProfileStatsQuantity>{user.stats.views}</ProfileStatsQuantity>
+    </ProfileStatsItem>
+    <ProfileStatsItem>
+      <ProfileStatsLabel>Likes</ProfileStatsLabel>
+      <ProfileStatsQuantity>{user.stats.likes}</ProfileStatsQuantity>
+    </ProfileStatsItem>
+  </ProfileStats>
+</ProfileCard>
 }

@@ -1,22 +1,20 @@
-import css from './Statistics.module.css'
-const backgroundColor = document.querySelector('[listitem]')
-console.log(backgroundColor);
+import { StatisticsItem, StatisticsList, StatisticsSection, StatisticsTitle } from './Statistics.styled'
 
 
 export const Statistics = ({ title = "Upload stats", data }) => {
     return <div>
-<section className={css.statistics}>
-  <h2 className={css.title}>{title}</h2>
+<StatisticsSection>
+  <StatisticsTitle>{title}</StatisticsTitle>
 
-    <ul className={css.statlist}>
+    <StatisticsList>
                 {data.map(({ id, label, percentage }) => (
-                  <li className={css.listitem} key={id}>
+                  <StatisticsItem key={id}>
    <span className="label">{label}</span>
       <span className="percentage">{percentage}%</span>
-    </li>
+    </StatisticsItem>
         ) )}        
-  </ul>
-    </section>
+  </StatisticsList>
+    </StatisticsSection>
     </div>
     
     
