@@ -46,12 +46,12 @@ display: flex;
   border-radius: 9px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   background: ${props => {
-        const backgroundColor = getRandomColor();
-        return backgroundColor;
-    }};
+    const backgroundColor = getRandomColor();
+    return backgroundColor;
+  }};
 `
 function getRandomColor() {
-    return `#${Math.floor(Math.random() * 16777215)
-        .toString(16)
-        .padStart(6, 0)}`;
+  return `#${Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, 0)}`;
 }
