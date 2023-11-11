@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pinkyjohnny/goit-react-hw-01-components/static/css/main.b3c08cc3.css",
-    "main.js": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.ab1ab997.js",
+    "main.js": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.8e22bab5.js",
     "index.html": "/pinkyjohnny/goit-react-hw-01-components/index.html",
     "main.b3c08cc3.css.map": "/pinkyjohnny/goit-react-hw-01-components/static/css/main.b3c08cc3.css.map",
-    "main.ab1ab997.js.map": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.ab1ab997.js.map"
+    "main.8e22bab5.js.map": "/pinkyjohnny/goit-react-hw-01-components/static/js/main.8e22bab5.js.map"
   },
   "entrypoints": [
     "static/css/main.b3c08cc3.css",
-    "static/js/main.ab1ab997.js"
+    "static/js/main.8e22bab5.js"
   ]
 }
